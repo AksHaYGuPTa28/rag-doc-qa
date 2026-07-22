@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env
+.env
+.env.local
+
+# Data / vector store
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/chroma/*
+!backend/data/chroma/.gitkeep
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

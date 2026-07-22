@@ -1,0 +1,29 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.13.4
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+python-multipart==0.0.9
+
+# LLM providers
+openai==1.58.1
+anthropic==0.40.0
+google-genai==2.13.0
+
+# Chunking (LangChain text splitters only -- lightweight, no heavy extras)
+langchain-text-splitters==0.3.0
+
+# Vector store
+chromadb==0.5.5
+
+# Keyword search (BM25 half of hybrid search)
+rank-bm25==0.2.2
+
+# Document parsing
+pypdf==4.3.1
+docx2txt==0.8
+
+# Optional: local embeddings + cross-encoder reranking.
+# The app degrades gracefully (falls back to RRF fusion, no rerank / OpenAI-only
+# embeddings) if this is not installed -- it pulls in torch and is a large install.
+sentence-transformers==3.1.1
