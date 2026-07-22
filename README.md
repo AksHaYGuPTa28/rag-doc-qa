@@ -1,5 +1,9 @@
 # RAG-Based Enterprise Document Q&A Assistant
 
+Working GUI:
+<img width="1584" height="975" alt="RAG" src="https://github.com/user-attachments/assets/0a7c00a1-3259-4b7d-b708-8b650e319527" />
+
+
 An end-to-end Retrieval-Augmented Generation pipeline for natural-language
 Q&A over internal documents, with a streaming chat UI.
 
